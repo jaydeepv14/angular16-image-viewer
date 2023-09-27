@@ -1,15 +1,15 @@
 {
-  "name": "ngx-image-viewer",
+  "name": "angular16-ngx-image-viewer",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "prepare": "npm run build:lib",
     "build:lib": "cd ./projects/ngx-image-viewer/ && ng build ngx-image-viewer",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "^16.1.2",
     "@angular/common": "^16.1.2",
