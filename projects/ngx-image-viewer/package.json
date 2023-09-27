@@ -1,0 +1,31 @@
+{
+  "name": "@jaydeepv/ngx-image-viewer",
+  "version": "1.0.0",
+  "author": "Jaydeep Vishwakarma (https://github.com/jaydeepv14)",
+  "description": "Angular image viewer component with Ivy support",
+  "homepage": "https://github.com/jaydeepv14/angular16-image-viewer#readme",
+  "keywords": [
+    "angular 16",
+    "image",
+    "viewer",
+    "angular 16 image viewer"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaydeepv14/angular16-image-viewer.git"
+  },
+  "main": "src/public-api.ts",
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "^16.1.2",
+    "@angular/core": "^16.1.2"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0",
+    "screenfull": "^6.0.2"
+  },
+  "sideEffects": false,
+  "bugs": {
+    "url": "https://github.com/jaydeepv14/angular16-image-viewer/issues"
+  }
+}
